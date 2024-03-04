@@ -8,6 +8,16 @@ package helloworld;
 service Greeter {
   // Sends a greeting
   rpc SayHello (HelloRequest) returns (HelloReply) {}
+  rpc SayGoodbye (GoodbyeRequest) returns (GoodbyeReply) {}
+}
+
+
+message GoodbyeRequest {
+  string name = 1;
+}
+
+message GoodbyeReply {
+  string name = 1;
 }
 
 // The request message containing the user's name.
