@@ -29,7 +29,7 @@ var HelloWorldServerResponse = Response{
 		{
 			Address: "127.0.0.1:8090",
 			Version: "v2",
-			Weight:  33,
+			Weight:  34,
 		},
 		{
 			Address: "127.0.0.1:8095",
