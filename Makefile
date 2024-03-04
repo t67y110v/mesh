@@ -12,5 +12,4 @@ run_server:
 
 
 generate:
-	protoc ./helloworld/helloworld/helloworld.proto --go_out=./helloworld/helloworld --go-grpc_out=./helloworld/helloworldls
-	
+	protoc ./helloworld/helloworld/helloworld.proto --go_out=./helloworld/helloworld --go-grpc_out=./helloworld/helloworld
